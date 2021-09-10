@@ -88,7 +88,6 @@ class HelperDBNota(context: Context): SQLiteOpenHelper(context, DATABASE_NAME, n
         }catch (e:Exception){
             e.printStackTrace()
         }
-
     }
 }
 

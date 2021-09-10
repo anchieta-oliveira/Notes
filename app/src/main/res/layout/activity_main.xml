@@ -14,10 +14,9 @@
 
         <TextView
             android:id="@+id/textNotes"
-            android:text="@string/my_notes"
             style="@style/textApp"
-            android:layout_alignParentStart="true">
-        </TextView>
+            android:layout_alignParentStart="true"
+            android:text="@string/my_notes"></TextView>
 
         <ImageButton
             android:id="@+id/button_Pesquisa"
