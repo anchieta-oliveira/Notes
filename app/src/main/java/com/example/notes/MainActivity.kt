@@ -94,8 +94,6 @@ class MainActivity : AppCompatActivity() {
         val listaSQL = NotasApplication.instance.helperDBNota?.getNota()?: mutableListOf()
 
         Thread(Runnable {
-
-            listaSQL.clear()
             listaSQL.addAll(NotasApplication.instance.helperDBNota?.getNota(busca)?: mutableListOf())
         }).start()
 
